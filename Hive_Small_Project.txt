@@ -1,0 +1,30 @@
+Post Office Data Analysis using Hive
+
+ Problem Scenario:
+			Philips works as a data analyst for PwC and has been 
+delegated to another country since the government is looking to make some 
+significant economic changes, which could mean a lot of work for PwC. The 
+Philips team was recently invited to the PM's office and informed that the PM 
+wants to completely revamp the post offices of the country he has been 
+delegated to because they have the greatest reach to every corner of the 
+country. The revamping will begin in any state, and if the response is positive, it 
+will be spread across the country. The PM's vision is to give every post office the 
+power of banking, allowing people to open accounts, deposit money, and take 
+advantage of schemes. As the leader, Philips chooses a state as the PoC state. 
+You must assist Philips in completing the analysis.
+
+
+
+ Objective: 
+ 
+		The objective is to create an optimized solution using hive to read 
+the data from a table
+
+Tasks Performed: 
+ 1. Uploaded datasets to HDFS from windows machine using winscp
+ 2. Created a database and table on Hive with relevant details
+ 4. Created an optimized solution with the help of dynamic partitioning
+ 5. Created a new table with the selected state as a partition
+ 6. Uploaded data from the sample table created earlier
+ 7. Did analysis on the data by running HiveQL
+ 8. Uploaded the project in GitHub using git commands in linux machine
